@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import os
+!pip install PyPDF2
 import PyPDF2
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
